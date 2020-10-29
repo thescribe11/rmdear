@@ -1,4 +1,4 @@
-use std::{fs, env};
+use std::fs;
 
 pub fn delete(mut targets: Vec<String>) -> Result<(), ()> {
     if targets.len() > 1 {
